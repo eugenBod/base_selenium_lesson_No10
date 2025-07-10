@@ -67,9 +67,7 @@ print("Password deleted")
 # нажимаем Enter для отправки формы b
 password.send_keys(Keys.ENTER)
 
-# Ставим задержу в 5 сек, для ожидания потенцциальных ошибок
+# Ждем и обновляем страницу, для сбрасывания состояния
 time.sleep(5)
-
-# Обновляем страницу, для сбрасывания состояния
 driver.refresh()
 print("Page refreshed")
