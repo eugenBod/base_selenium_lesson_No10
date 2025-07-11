@@ -64,10 +64,13 @@ time.sleep(1)
 password.send_keys(Keys.BACKSPACE)
 print("Password deleted")
 
-# нажимаем Enter для отправки формы b
+# нажимаем Enter для отправки формы
 password.send_keys(Keys.ENTER)
 
 # Ждем и обновляем страницу, для сбрасывания состояния
 time.sleep(5)
 driver.refresh()
 print("Page refreshed")
+
+# Выход из браузера
+driver.quit()
