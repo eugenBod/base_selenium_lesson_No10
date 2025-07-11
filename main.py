@@ -71,6 +71,7 @@ password.send_keys(Keys.ENTER)
 time.sleep(5)
 driver.refresh()
 print("Page refreshed")
+<<<<<<< HEAD
 
 # Выход из браузера
 driver.quit()
