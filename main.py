@@ -74,3 +74,4 @@ print("Page refreshed")
 
 # Выход из браузера
 driver.quit()
+print("Browser is closed")
